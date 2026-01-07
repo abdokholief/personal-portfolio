@@ -3,9 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header>
+        <h1>Abdelrahman kholif</h1> <p>Senior Business Analyst</p> 
+    </header>
+
+    <nav>
+        <ul> 
+            <li><a href="#about">About</a></li> 
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main> 
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="images/profile.jpeg" alt="Profile Photo" width="200" height="200" id="profile-pic">
+            <p>I’m a Business Analyst with 5 years of hands-on experience across diverse industries and product types from AI-powered solutions to HMIS, e-commerce platforms, SOE systems, and even enterprise data migration from Oracle to SAP.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skill-card">HTML</div>
+                <div class="skill-card">CSS</div>
+                <div class="skill-card">Agile mindset</div>
+                <div class="skill-card">Business analysis</div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="#" method="post">
+                <input type="text" name="username" placeholder="Name" required> 
+                <input type="email" name="email" placeholder="Email" required> 
+                <textarea name="message" placeholder="Message"></textarea> 
+                <button type="submit">Send</button> 
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>2026 Abdelrahman kholif</p>
+        <a href="https://www.linkedin.com/in/abdelrahman-kholif-a609b6104/">linkedin</a> 
+    </footer>
 </body>
 </html>
